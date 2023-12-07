@@ -9,42 +9,47 @@
     <title>AI English Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI English Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI English Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        My name is Ozymandias, king of kings:
-        <br />
-        Look on my works, ye Mighty, and despair!” Nothing beside remains.
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button"/>
+        </form>
+        <div class="poem">
+          My name is Ozymandias, king of kings:
+          <br />
+          Look on my works, ye Mighty, and despair!” Nothing beside remains.
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Nadya58s?tab=repositories">Nadia Sylvester</a>
-      and is
-      <a
-        href="https://github.com/Nadya58s/english-poem-generator"
-        target="_blank"
-        >open source on GitHub</a
-      >
-      and hosted on
-      <a href="https://ai-poem-generator-ns.netlify.app" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Nadya58s?tab=repositories"
+          >Nadia Sylvester</a
+        >
+        and is
+        <a
+          href="https://github.com/Nadya58s/english-poem-generator"
+          target="_blank"
+          >open source on GitHub</a
+        >
+        and hosted on
+        <a href="https://ai-poem-generator-ns.netlify.app" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
