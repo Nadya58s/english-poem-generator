@@ -17,6 +17,7 @@ a {
 .container {
   margin: 120px auto;
   max-width: 600px;
+  padding-left: 90px;
 }
 
 header {
