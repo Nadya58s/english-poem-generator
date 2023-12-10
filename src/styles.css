@@ -4,12 +4,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("images/kari-shea-cat.jpg");
-  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 a {
-  color: #eeedf1;
+  color: #fbac46;
   text-decoration: none;
 }
 .container {
@@ -99,7 +101,7 @@ footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
-  color: #fbac46;
+  color: #eeedf1;
 }
 
 .generating {
