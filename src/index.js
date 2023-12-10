@@ -12,7 +12,7 @@ function generatePoem(event) {
   event.preventDefault();
 
   let instructionsInput = document.querySelector("#user-instructions");
-  let apiKey = "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";
+  let apiKey = "905003053oa347f9820077ebadat1974";
 
   let prompt = `User instruction are: Genrate English poem about ${instructionsInput.value}`;
   let context =
