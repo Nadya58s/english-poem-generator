@@ -111,6 +111,9 @@ footer {
   color: #eeedf1;
 }
 
+.fa-github {
+  background-color: #fbac46;
+}
 .generating {
   animation: blink-animaiton 1s steps(5, start) infinite;
 }
