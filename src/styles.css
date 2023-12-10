@@ -5,6 +5,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("images/kari-shea-cat.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -33,7 +34,7 @@ h1 {
 .form-container {
   margin-bottom: 30px;
   padding: 40px 35px 35px;
-  background: rgba(224, 212, 212, 0.1);
+  background: rgba(198, 191, 191, 0.172);
   border: 2px solid rgba(225, 225, 225, 0.02);
   box-shadow: 0 0 10px rgba(178, 169, 169, 0.2);
   backdrop-filter: blue(10px);
@@ -76,12 +77,12 @@ form {
 
 .poem {
   font-size: 16px;
-  background: rgba(224, 212, 212, 0.1);
+  background: rgba(198, 191, 191, 0.172);
   border: 2px solid rgba(225, 225, 225, 0.02);
   box-shadow: 0 0 10px rgba(178, 169, 169, 0.2);
   backdrop-filter: blue(10px);
   line-height: 2;
-  padding-left: 10px;
+  padding-left: 15px;
   border-left: 3px solid #fbac46;
 
   color: white;
