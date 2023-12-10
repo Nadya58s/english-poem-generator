@@ -70,14 +70,20 @@ form {
 .submit-button {
   margin-left: 10px;
   background: #fbac46;
-  color: black;
   border: none;
   border-radius: 50px;
   width: 150px;
   padding: 14px 24px;
-  font-size: 16px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
+.submit-button:hover {
+  background: none;
+  border: 2px solid #fbac46;
+  box-shadow: 0 0 20px rgba(173, 178, 169, 0.682);
+  color: white;
+}
 .poem {
   font-size: 16px;
   background: rgba(198, 191, 191, 0.172);
